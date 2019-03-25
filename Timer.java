@@ -5,9 +5,9 @@ public class ROCKET {
     private String[] myPart;
 
     ROCKET(int array) {
-      myPart= new String[array];
-    } //To create an array according to the required sections
+      myPart= new String[array];//To create an array according to the required sections
 
+    } 
 
     private   int i=0;
       private double[] time = new double[2];
@@ -21,7 +21,8 @@ public class ROCKET {
                 time[0] = System.nanoTime();//Gets initial time
 
             }
-            else {
+            
+            else { 
                  time[1] = (System.nanoTime() - time[0])/100000000;//Gets the time in seconds
 
                 myPart[i] =part+ ": " + time[1] + "seconds";
@@ -32,7 +33,7 @@ public class ROCKET {
     }
 
 
-
+        //Writes the array elements to a file
         public void write(){
             try {
                 FileWriter myWriter = new FileWriter("Test.txt");
@@ -64,7 +65,7 @@ public class ROCKET {
                 }
             }
 
-        for(int q=0;q<myPart.length;q++){
+        for(int q=0;q<myPart.length;q++){ //To print specific sections in the console
 
             if(myPart[q].contains(part)){
                 System.out.println(myPart[q]);
