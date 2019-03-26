@@ -1,5 +1,10 @@
 
 import java.io.*;
+/**
+The code has one constructor to help create an array which stores all the results. Size of the array is to be declared during the object 
+creation. Method t must be invoked before the part of the code and at the end of the code to measure execution time.
+Method write writes the elements of the myPart array to predefined file. 
+*/
 
 public class ROCKET {
     private String[] myPart;
