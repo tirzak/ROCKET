@@ -56,8 +56,8 @@ public class ROCKET {
                
                //Writes the value of the array to the file
                 for (int ww = 0; ww < myPart.length; ww++) {
-                    if (myPart[i] != null)
-                        print.write(myPart[i]);
+                    if (myPart[ww] != null)
+                        print.write(myPart[ww]);
                     
                     print.write("\n");
                 }
@@ -75,7 +75,7 @@ public class ROCKET {
             if(part.equalsIgnoreCase("ALL")){
                 for (int s=0; s<myPart.length;s++)
                       {
-                          System.out.println(myPart[i]);
+                          System.out.println(myPart[s]);
                 }
             }
 
