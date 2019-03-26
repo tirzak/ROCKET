@@ -23,7 +23,7 @@ public class ROCKET {
 
     } 
 
-    private   int i=0;
+    private int i=0;
       private double[] time = new double[2];
 
 
