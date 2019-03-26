@@ -50,8 +50,8 @@ public class ROCKET {
                 print.close();
 
 
-            } catch (IOException e) {
-                System.out.println(e);
+            } catch (IOException error) {
+                System.out.println(error);
             }
         }
 
