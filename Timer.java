@@ -36,21 +36,21 @@ public class ROCKET {
         //Writes the array elements to a file
         public void write(){
             try {
-                FileWriter myWriter = new FileWriter("Test.txt");
+                FileWriter myWriter = new FileWriter("Test.csv");//File name
                 BufferedWriter buffWrite = new BufferedWriter(myWriter);
                 PrintWriter print = new PrintWriter(buffWrite);
                
                //Writes the value of the array to the text
                 for (int i = 0; i < myPart.length; i++) {
                     if (myPart[i] != null)
-
                         print.write(myPart[i]);
+                    
                     print.write("\n");
                 }
-                print.close();
-
-
-            } catch (IOException error) {
+                print.close();                            
+            } 
+            //For errors
+            catch (IOException error) {
                 System.out.println(error);
             }
         }
