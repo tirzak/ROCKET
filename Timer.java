@@ -40,7 +40,7 @@ public class ROCKET {
                 BufferedWriter buffWrite = new BufferedWriter(myWriter);
                 PrintWriter print = new PrintWriter(buffWrite);
                
-               //Writes the value of the array to the text
+               //Writes the value of the array to the file
                 for (int i = 0; i < myPart.length; i++) {
                     if (myPart[i] != null)
                         print.write(myPart[i]);
