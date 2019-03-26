@@ -64,9 +64,9 @@ public class ROCKET {
                 print.close();                            
             } 
             //For errors
-            catch (IOException error) {
-                System.out.println(error);
-            }
+           catch (IOException e) {
+            System.out.println("ERROR!");
+        }
         }
 
         //To print in the console
