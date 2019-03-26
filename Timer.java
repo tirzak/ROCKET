@@ -6,13 +6,13 @@ creation. Method t must be invoked before the part of the code and at the end of
 Method write writes the elements of the myPart array to predefined file. 
 
 To use this
-ROCKET variableName= new ROCKET(arraySize);
+ROCKET object= new ROCKET(arraySize);
 
-variableName.t("Segment Name", 1) //To start
+object.t("Segment Name", 1) //To start
 code here
 .
 .
-variableName.t("Segment Name", 2) //To stop
+object.t("Segment Name", 2) //To stop
 */
 
 public class ROCKET {
